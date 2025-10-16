@@ -1,0 +1,65 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: whitesmoke;
+    
+}
+
+.timeline {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 90%;
+    max-width: 1000px;
+    margin: 80px auto;
+    position: relative;
+}
+
+.timeline::before {
+    content: "";
+    position: absolute;
+    top: 20px;
+    left: 0;
+    width: 100%;
+    height: 4px;
+    background-color: green;
+}
+
+.event {
+    text-align: center;
+    position: relative;
+    width: 23%;
+}
+
+.circle {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    margin: 0 auto 30px auto;
+}
+
+.circle.green {
+    background-color: green;
+}
+
+.circle.blue {
+    background-color: blue;
+}
+
+.content {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0px 2px 6px gray;
+    padding: 20px;
+}
+
+.content h3 {
+    color: darkblue;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.content p {
+    color: dimgray;
+    font-size: 14px;
+    margin: 0;
+}
