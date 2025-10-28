@@ -1,0 +1,94 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: whitesmoke;
+    color: black;
+}
+
+
+.section-title {
+    text-align: center;
+    margin-top: 40px;
+    color: black;
+}
+
+.section-subtitle {
+    text-align: center;
+    color: dimgray;
+    margin: 10px 30px 30px;
+}
+
+
+.trust-section {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+}
+
+.trust-box {
+    background-color: white;
+    width: 280px;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px lightgray;
+}
+
+.trust-box .icon {
+    width: 60px;
+    height: 60px;
+    margin-bottom: 15px;
+}
+
+.product-section {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+}
+
+.product-box {
+    background-color: white;
+    width: 230px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0px 0px 10px lightgray;
+    padding: 15px;
+}
+
+.product-box img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.product-box a {
+    text-decoration: none;
+    color: blue;
+    font-weight: bold;
+}
+
+.product-box a:hover {
+    text-decoration: underline;
+}
+
+.btn-container {
+    text-align: center;
+    margin: 30px 0;
+}
+
+button {
+    background-color: blue;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: darkblue;
+}
